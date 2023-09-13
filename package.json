@@ -5,7 +5,8 @@
   "description": "Fragments UI testing web app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel serve index.html"
+    "start": "parcel serve index.html",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "buffer": "^6.0.3",
+    "nodemon": "^3.0.1",
     "parcel": "^2.9.3",
     "process": "^0.11.10",
     "punycode": "^1.4.1",
